@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% if site.posts.size == 0 %}
+  <h2>Sem posts no momento</h2>
+{% else %}
+  {% for post in site.posts %}
+      <div>
+        <div>
+          <h2>
+            <a href="{{ post.url }}" class="titulo-post">{{ post.title }}</a>
+          </h2>
+          <div>
+            <time>{{ post.date | date_to_string }}</time>
+          </div>
+        </div>
+      </div>
+  {% endfor %}
+{% endif %}

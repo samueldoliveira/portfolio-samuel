@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article class="row post">
+    <h1 class="post-title">
+      {{ page.title }}
+    </h1>
+    <div>
+      <time>{{ page.date | date_to_string }}</time>
+    </div>
+
+    {{ content }}
+</article>

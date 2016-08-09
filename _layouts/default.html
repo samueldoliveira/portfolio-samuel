@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/app.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/foundation.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/foundation.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="/foundation-icons/foundation-icons.css" />
+
+</head>
+<body>
+
+  <div class="large-12 imagem">
+    <div class="row">
+      <div class="large-6 titulo text-center">
+        <h1><a href="">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+      </div>
+    <div class="large-1 flecha">
+      <a href=""><i class="fi-arrow-down"></i></a>
+    </div>
+    </div>
+  </div>
+
+  <div class="row about-me">
+    <div class="large-8 text-justify columns">
+      {{ site.about }}
+    </div>
+    <div class="large-4 columns text-center social">
+      <a href="https://www.facebook.com/samuel.hendrix.16"><i class="fi-social-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/samuel-h-129a48113?trk=nav_responsive_tab_profile_pic"><i class="fi-social-facebook"></i></a>
+      <a href="https://github.com/samueldoliveira"><i class="fi-social-github"></i></a>
+    </div>
+  </div>
+
+  <div class="row">
+    {{ content }}
+  </div>
+
+</body>
+</html>

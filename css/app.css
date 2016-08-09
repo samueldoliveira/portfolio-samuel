@@ -1,0 +1,85 @@
+a, p{
+  color: white !important;
+}
+
+/* POSTS */
+.titulo-post{
+  color: black !important;
+}
+/**/
+
+.imagem{
+  background-image: url("../img/foto-capa.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 300px;
+}
+
+.titulo{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flecha{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius:50%;
+ -moz-border-radius:50%;
+ -ms-border-radius:50%;
+ border-radius:50%;
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
+}
+
+.fi-arrow-down{
+  font-size: 300%;
+  color: white
+}
+
+.fi-social-facebook{
+  color: #3b5998;
+}
+
+.fi-social-github{
+  color: black;
+}
+
+.fi-social-linkedin{
+  color: #007bb6;
+}
+
+.fi-social-facebook, .fi-social-github, .fi-social-linkedin {
+  font-size: 250%;
+  padding-left: 5%;
+}
+
+.about-me{
+  margin-top: 3%;
+}
+
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+ 40% {-webkit-transform: translateY(-30px);}
+ 60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-30px);}
+ 60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-30px);}
+ 60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
