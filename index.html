@@ -7,12 +7,13 @@ layout: default
 {% else %}
   {% for post in site.posts %}
       <div>
-        <div>
-          <h2>
+        <div class="text-justify">
+          <h3>
             <a href="{{ post.url }}" class="titulo-post">{{ post.title }}</a>
-          </h2>
+          </h3>
+          <p>{{post.descricao}}</p>
           <div>
-            <time>{{ post.date | date_to_string }}</time>
+            <time><p class="data">{{ post.date | date_to_string }}</p></time>
           </div>
         </div>
       </div>

@@ -4,12 +4,10 @@
   <meta charset="UTF-8">
   <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/main.scss" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="css/app.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="css/foundation.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="css/foundation.min.css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="/foundation-icons/foundation-icons.css" />
 
 </head>
@@ -39,8 +37,33 @@
   </div>
 
   <div class="row">
-    {{ content }}
+    <div class="medium-3 text-center portfolio">
+      <img src="img/port1.png" alt="">
+      <p class="port-text">Projeto desenvolvido para curso básico de desenvolvimento web
+          oferecido pelo FreeCodeCamp.</p>
+      <a href="http://codepen.io/samueloliveira_/pen/BKdRPY" class="button ">Venha ver</a>
+    </div>
   </div>
+
+
+
+    <div class="large-12 posts-manual">
+      <div class="row">
+        <h1>Manual de Sobrevivência do Jovem Desenvolvedor</h1>
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="large-12 rodape">
+      <div class="row">
+        <div class="large-5 columns rodape-titulo"><h4>Samuel Hendrix Dantas de Oliveira</h4></div>
+        <div class="large-3 links-rodapé columns">
+          <a href="https://www.facebook.com/samuel.hendrix.16"><i class="fi-social-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/samuel-h-129a48113?trk=nav_responsive_tab_profile_pic"><i class="fi-social-facebook"></i></a>
+          <a href="https://github.com/samueldoliveira"><i class="fi-social-github"></i></a>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>

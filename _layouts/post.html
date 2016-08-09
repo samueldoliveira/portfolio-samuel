@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-
-<article class="row post">
-    <h1 class="post-title">
+<div class="row post">
+    <h2 class="post-title">
       {{ page.title }}
-    </h1>
+    </h2>
+    <p>{{ page.descricao }}</p>
     <div>
-      <time>{{ page.date | date_to_string }}</time>
+      <time class="data">{{ page.date | date_to_string }}</time>
     </div>
 
     {{ content }}
-</article>
+</div>

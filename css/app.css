@@ -1,10 +1,27 @@
+html, body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 a, p{
   color: white !important;
 }
-
+.port-text{
+  color: black !important;
+}
+.portfolio{
+  border: 1px solid #000000;
+  margin-bottom: 5%;
+}
 /* POSTS */
 .titulo-post{
-  color: black !important;
+  color: #E5E5E5 !important;
+}
+.posts-manual{
+  background-color: #494B4C;
+}
+
+.data{
+  color: white !important;
 }
 /**/
 
@@ -59,6 +76,19 @@ a, p{
 
 .about-me{
   margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.links-rodape{
+  float: right;
+}
+
+.rodape{
+  background-color: #BFBFBF;
+}
+
+.rodape-titulo{
+  margin-top: 1%;
 }
 
 @-webkit-keyframes bounce {

@@ -9,9 +9,9 @@
 title: Samuel Oliveira
 email: your-email@domain.com
 description: Desenvolvedor Front-End em construção e apaixonado por novos conhecimentos.
-about: Samuel Hendrix Dantas de Oliveira, 18 anos, cursando Análise e Desenvolvimento de sistemas no Instituto Federal do Rio Grande do Norte. Apaixonado por tecnologia e por novos conhecimentos, como também, entrando no mundo front-end com o objetivo de atuar de forma profissional. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+about: Samuel Hendrix Dantas de Oliveira, 18 anos, cursando Análise e Desenvolvimento de sistemas no Instituto Federal do Rio Grande do Norte. Apaixonado por tecnologia e por novos conhecimentos, como também, entrando no mundo front-end com o objetivo de atuar de forma profissional.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
